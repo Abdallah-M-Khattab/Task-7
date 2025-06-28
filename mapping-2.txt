@@ -1,0 +1,8 @@
+SalesOffice(NUM, Loc)
+Employee(ID, Name)
+Property(ID, Add, City, State, Zip)
+Owner(ID, Name)
+Manage(SalesOffice_NUM, Employee_ID)
+Work(SalesOffice_NUM, Employee_ID)
+List(SalesOffice_NUM, Property_ID)
+Has(Property_ID, Owner_ID, PercentOwned)

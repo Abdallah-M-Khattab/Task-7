@@ -1,0 +1,8 @@
+Musician(ID, Name, Phone, Address_St, Address_City)
+Instrument(Name, Key)
+Song(Title, Author)
+Album(ID, Title, Date)
+PlayInstrument(MusicianID, InstrumentName)
+PlaySong(MusicianID, SongTitle)
+Produce(MusicianID, AlbumID)
+AppearsAt(SongTitle, AlbumID)
